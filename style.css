@@ -58,8 +58,9 @@ a{
 .home{
    height: 100vh;
 }
-.page__banner{
-   height: 100%;   
+.page__banner{     
+   max-width: 1000px; 
+   min-width: 50%;
 }
 .intro{
    padding: 30px;
