@@ -11,7 +11,66 @@ html{
    font-size: 16px;
 }
 
+nav{
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem 5rem;
+   background: white;
+}
 
 
+ul{
+   display: flex;
+   list-style-type: none;
+   align-items: center;
+}
 
+a{
+   text-decoration: none;
+   color:black;
+   font-style: 1.5rem;
+   margin-left: 5rem;
+
+}
+
+.logo{
+   position: absolute;
+   left: 50%;
+   top:50%;
+   font-size: 1.5rem;
+   color:rgb(21, 21, 21);
+   transform: translate(-50%, -50%) scale(5);
+
+}
+
+.first-page, .second-page{
+   height: 100vh;
+   background: rgb(21, 21, 21);
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.second-page{
+   flex-direction: row-reverse;
+}
+
+.home{
+   height: 100vh;
+}
+.page__banner{
+   height: 100%;   
+}
+.intro{
+   padding: 30px;
+}
+
+.intro__heading{
+   font-size: 6rem;   
+  
+}
+.intro__text{
+   margin-top: 5rem;
+   color: rgba(255, 255, 255, 0.8);
+}
 
